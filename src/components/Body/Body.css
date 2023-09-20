@@ -1,0 +1,18 @@
+.body__container {
+  width: 100%;
+  min-height: 400px;
+  padding: 24px;
+  background-color: #20232d;
+  margin-top: 24px;
+  border-radius: 10px;
+}
+.posts__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  background-color: #54596c;
+  border-radius: 10px;
+  padding: 12px;
+}
