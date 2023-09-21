@@ -2,9 +2,13 @@
   width: 100%;
   min-height: 400px;
   padding: 24px;
-  background-color: #20232d;
+  background-color: #d4d1ff10;
   margin-top: 24px;
   border-radius: 10px;
+  -webkit-box-shadow: 0px 15px 14px 9px rgba(3, 4, 4, 0.4);
+  -moz-box-shadow: 0px 15px 14px 9px rgba(3, 4, 4, 0.4);
+  box-shadow: 0px 15px 14px 9px rgba(3, 4, 4, 0.4);
+  border: 2px solid #ffffff10;
 }
 .posts__container {
   display: flex;
@@ -12,7 +16,7 @@
   align-items: center;
   width: 100%;
   min-height: 400px;
-  background-color: #54596c;
+  /* background-color: #54596c; */
   border-radius: 10px;
   padding: 12px;
 }

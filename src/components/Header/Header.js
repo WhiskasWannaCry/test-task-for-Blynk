@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import generateRandomId from "../shared/generateRandomId"
 
-const Header = ({ title, setTitle, posts, setPosts }) => {
+const Header = ({ posts, setPosts }) => {
+  const [title, setTitle] = useState("");
   const regex = /^(?!\s*$).+/;
   const handleCreatePost = () => {
     if(!regex.test(title)) {

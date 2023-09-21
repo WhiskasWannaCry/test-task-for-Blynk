@@ -5,7 +5,6 @@ import Header from "./components/Header/Header";
 
 function App() {
   const [posts, setPosts] = useState([]);
-  const [title, setTitle] = useState("");
 
   useEffect(() => {
     if (!localStorage.getItem("posts")) {
@@ -20,8 +19,6 @@ function App() {
   return (
     <div className="container">
       <Header
-        title={title}
-        setTitle={setTitle}
         posts={posts}
         setPosts={setPosts}
       ></Header>

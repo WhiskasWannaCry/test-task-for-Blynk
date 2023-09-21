@@ -1,6 +1,6 @@
 import React from "react";
 import "./Body.css";
-import Post from "../shared/Post/Post";
+import Post from "../Post/Post";
 
 const Body = ({ posts, setPosts }) => {
   return (
